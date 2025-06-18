@@ -69,8 +69,7 @@ public class TrainLine {
         }
         return counter;
     } // method countStations
-
-    public int indexOf(String stationName)
+// Objective one
     public int indexOf(String stationName) {
     Station current = head;  // marks beginning of train line
     int index = 0;           // keeps track of position number
@@ -85,7 +84,10 @@ public class TrainLine {
 
     return -1;  // tail end, last station
 }
-
+// Objective Two
+    public boolean contains(String stationName) {
+    return indexOf(stationName) != -1;  //station found and returning "True", if not "false"
+}
 
 
     /**
