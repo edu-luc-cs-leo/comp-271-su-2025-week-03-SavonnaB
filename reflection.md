@@ -31,4 +31,4 @@ I think the issue here is natural logic in the way I code. I'm not looking at th
             index = parent(index);
         }
     } // method heapifyUp
-
+The idea was there but the execution had room for expansion.
