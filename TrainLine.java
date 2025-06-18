@@ -70,6 +70,23 @@ public class TrainLine {
         return counter;
     } // method countStations
 
+    public int indexOf(String stationName)
+    public int indexOf(String stationName) {
+    Station current = head;  // marks beginning of train line
+    int index = 0;           // keeps track of position number
+
+    while (current != null) {
+        if (current.name.equals(stationName)) {
+            return index;    // when found return the index
+        }
+        current = current.next;  // move to the next station
+        index++; //iterates through
+    }
+
+    return -1;  // tail end, last station
+}
+
+
 
     /**
      * String representation of the object

@@ -24,5 +24,4 @@ public class TrainLine_Implementation {
         }
         System.out.printf("\n\n%s\n\n", (cumulativeTest?GOOD:BAD));
     } // method main
-    
 } // class TrainLine_Implementation
