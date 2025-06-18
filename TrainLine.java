@@ -6,6 +6,7 @@ public class TrainLine {
     private String name;
     /** The head station of the train line */
     private Station head;
+    private Station tail; //remembers the last station
     /** Current number of stations in the line */
     private int numberOfStations;
 

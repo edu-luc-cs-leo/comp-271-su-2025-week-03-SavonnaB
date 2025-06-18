@@ -3,8 +3,8 @@ public class Station {
     /** Default station name */
     private static final String DEFAULT_NAME = "Hogsmeade";
 
-    private String name;
-    private Station next;
+    String name;
+    Station next;
 
     /** Basic constructor */
     public Station(String name) {
